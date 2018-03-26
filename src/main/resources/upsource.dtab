@@ -1,0 +1,8 @@
+/zk##    => /$/com.twitter.serverset;
+/prod    => /zk##/192.168.11.29:2181;
+/test    => /zk##/192.168.11.29:2181;
+/dev     => /zk##/192.168.11.29:2181;
+/local   => /zk##/127.0.0.1:2181;
+/zk#     => /dev;
+/s#      => /zk#/finatra/http/service;
+/s       => /s#;
